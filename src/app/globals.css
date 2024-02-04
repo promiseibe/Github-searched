@@ -1,0 +1,129 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000 !important;
+  color: #fff !important
+}
+
+.navbar-box {
+  background-color: white !important;
+  border-radius: 50% !important;
+  width: 80px !important;
+
+}
+.image-logo {
+  position: relative;
+  left: 25px;
+  top: 22px;
+}
+
+/* Animation */
+
+  .test1 {
+  background-color: #fff;
+  margin: 50px auto;
+  height: 100vmax;
+  width: 30vmax;
+  opacity: 0.1;
+  animation: example 15s linear 2s infinite alternate;
+  position: absolute;
+
+}
+ .test2 {
+  background-color: #fff;
+  margin: 50px auto;
+  height: 200px;
+  width: 50%;
+  opacity: 0.1;
+  animation: example1 15s linear 2s infinite alternate;
+  position: absolute;
+}
+.test3 {
+  background-color: #fff;
+  margin: 50px auto;
+  height: 100vmax;
+  width: 50vmax;
+  opacity: 0.1;
+  animation: example2 8s linear 2s infinite alternate;
+  position: absolute;
+
+}
+ .test4 {
+  background-color: #fff;
+  margin: 50px auto;
+  height: 200px;
+  width: 50%;
+  opacity: 0.1;
+  animation: example3 10s linear 2s infinite alternate;
+  position: absolute;
+}
+
+
+
+
+@keyframes example {
+  0% {background-color: #fff;right: 0px; top: 0px; height: 100px; width: 5px;}
+    25% {background-color: yellow;right: 500px; top: 0px}
+    50% {background-color: aquamarine;right: 700px;top:500px;height: 5vmax;}
+    75% {background-color: rgb(113, 171, 46);right: 0px;top:200px;}
+    100% {background-color: aquamarine;right: 0px;top:0px;height: 10vmax;}
+  }
+  @keyframes example1 {
+    0% {background-color: #c31b1b;left: 0px; top: 0px; height: 30vmax; width: 5px; border-radius: 50%;}
+    25% {background-color: rgb(17, 17, 172);left: 100px; top: 0px}
+    50% {background-color: rgb(165, 26, 103);left: 900px;top:100px;height: 5vmax;}
+    75% {background-color: rgb(164, 240, 149);left: 700px;top:50px;}
+    100% {background-color: aquamarine;left: 0px;top:0px;height: 10vmax;}
+    }
+    @keyframes example2 {
+      0% {background-color: #8a4949;left: 10px; top: 50px; height: 30vmax; width: 5px;}
+      25% {background-color: rgb(150, 188, 138);left: 100px; top: 0px}
+      50% {background-color: rgb(60, 90, 125);left: 900px;top:100px;height: 5vmax;}
+      75% {background-color: rgb(113, 55, 99);left: 700px;top:50px;}
+      100% {background-color: rgb(144, 58, 47);left: 0px;top:0px;height: 10vmax;}
+      }
+  
+      @keyframes example3 {
+        0% {background-color: #c31b1b;left: 0px; top: 0px; height: 30vmax; width: 5px; border-radius: 50%;}
+        25% {background-color: rgb(17, 17, 172);left: 100px; top: 0px}
+        50% {background-color: rgb(165, 26, 103);left: 900px;top:100px;height: 5vmax;}
+        75% {background-color: rgb(164, 240, 149);left: 700px;top:50px;}
+        100% {background-color: aquamarine;left: 0px;top:0px;height: 10vmax;}
+        }
+      
+    /* dark mode thin scroll bar */
+    
+/* Set the scrollbar track color */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Set the scrollbar handle color */
+::-webkit-scrollbar-thumb {
+  background-color: #555; /* Set the color of the scrollbar handle */
+}
+
+/* Set the scrollbar track color when the handle is being dragged */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
+/* Set the scrollbar track color when the handle is being grabbed */
+::-webkit-scrollbar-thumb:active {
+  background-color: #999;
+}
+
+/* Set the scrollbar track color */
+::-webkit-scrollbar-track {
+  background-color: #222; /* Set the color of the scrollbar track */
+}
+
+/* Set the scrollbar corner color */
+::-webkit-scrollbar-corner {
+  background-color: #333; /* Set the color of the scrollbar corner */
+}
+  
